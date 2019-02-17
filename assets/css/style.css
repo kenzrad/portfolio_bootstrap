@@ -1,3 +1,17 @@
-.badge-info {
-    height: 100x;
+
+body {
+    background-image: url("../images/qbkls/qbkls.png");
+    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+}
+
+.stinky  {
+    font-family: "Georgia", "Times", "Times New Roman", "serif";
+}
+
+.text-muted {
+    color: #777777;
+}
+
+.nav-link {
+    font-size: 14px;
 }
