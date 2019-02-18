@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,37 +12,44 @@
     />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
+
+
   <body>
+    <!-- Container within a navbar, gives 960px working space -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white m-0 mk-0 px-5 py-0">
-    <div class="container p-0">
-        <header class="bg-info text-white p-3 m-0 stinky"><b>Kensey Barker</b>
-        </header>
-        <div class="collapse navbar-collapse">
+        <div class="container p-0">
+            <header class="bg-info text-white p-3 m-0 stinky"><b>Kensey Barker</b></header> 
+            <!-- this is a right-justified navbar -->
             <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex mx-0">
                 <li class="nav-item px-0">
-                    <a class="nav-link px-2 text-muted" href="#">
+                    <a class="nav-link px-2 text-muted" href="index.html">
+                        <!-- Spanning my | fixed all my problems, px padding L/R-->
                         About Me <span class="px-2">|</span>
                     </a>
                 <li class="nav-item">
-                    <a class="nav-link px-0 text-muted" href="#">
+                    <a class="nav-link px-0 text-muted" href="portfolio.html">
                         Portfolio <span class="px-2">|</span>
                     </a>
                 <li class="nav-item">
-                    <a class="nav-link px-0 text-muted" href="#">
+                    <a class="nav-link px-0 text-muted" href="contact.html">
                         Contact 
                     </a>
             </ul>
         </div>
     </nav>
+
     <br>
     <br>
+
     <div class="container bg-white border">
         <div class="row">
             <div class="col-md-12">
                 <h2 class="text-info mt-3 mb-0 py-0 stinky"><b>About Me</b></h2>
             </div>
         </div>
+
         <hr>
+
         <div class="row">
             <div class="col-md-5">
                 <img class="m-2" src="https://picsum.photos/440/310/?random" alt="Placeholder">
@@ -82,6 +90,16 @@
                 
             </div>
         </div>
-    </div>
-  </body>
+    </div>    
+
+    <footer class="footer fixed-bottom">
+        <div class="container-fluid p-0 m-0">
+            <p class="bg-info py-2 m-0"></p>
+            <p class="text-muted text-center bg-dark pt-5 pb-0 m-0">Copyright</p>
+        </div>
+    </footer>
+
+
+</body>
+
 </html>

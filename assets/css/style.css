@@ -15,3 +15,8 @@ body {
 .nav-link {
     font-size: 14px;
 }
+
+*, ::after
+::before {
+    box-sizing: border-box;
+}
