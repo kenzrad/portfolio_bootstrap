@@ -16,3 +16,7 @@ body {
     font-size: 14px;
 }
 
+.navbar-collapse.collapse.in {
+    display: block!important;
+  }
+

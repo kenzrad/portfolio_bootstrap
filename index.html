@@ -14,36 +14,28 @@
 
   <body>
     <!-- Container within a navbar, gives 960px working space -->
-    <nav
-      class="navbar navbar-fluid-lg navbar-light bg-white m-0 mk-0 px-5 py-0"
-    >
+    <nav class="navbar navbar-expand-sm navbar-light bg-white m-0 mk-0 px-5 py-0">
       <div class="container p-0">
-        <header class="bg-info text-white p-3 m-0 stinky">
-          <b>Kensey Barker</b>
-        </header>
-        <!-- this is a right-justified navbar -->
-        <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex mx-0">
-          <li class="nav-item px-0">
-            <a class="nav-link px-2 text-muted" href="index.html">
-              <!-- Spanning my | fixed all my problems, px padding L/R-->
-              About Me <span class="px-2">|</span>
-            </a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link px-0 text-muted" href="portfolio.html">
-              Portfolio <span class="px-2">|</span>
-            </a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link px-0 text-muted" href="contact.html">
-              Contact
-            </a>
-          </li>
-        </ul>
+        <header class="navbar-brand bg-info text-white p-3 m-0 stinky">Kensey Barker</header>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="info.html">About Me</a> <!--OKAY when it collapses, the | looks reaaaaal dumb, so I need to figure out how to make that not appear when collapsed BUT that's a job for another day...because I'm going freak out :)-->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
+    
 
     <br />
     <br />
@@ -60,11 +52,13 @@
       <div class="row">
         <div class="col-md-12">
           <img
-            class="m-2 float-md-left"
-            src="https://picsum.photos/440/310/?random"
-            alt="Placeholder"
+            class="img-fluid m-2 float-md-left"
+            src="assets/images/climb.jpg"
+            alt="Climb"
+            width="450"
+            height="450"
           />
-          <p class="text-justify text-muted">
+          <p class="text-justify text-muted mr-2">
             My name is Kensey, though my first name is actually Marion. I'm
             named after my Nana (my mother's mother), she was a first generation
             Scottish immigrant (Protestant) who married an Irish immigrant
@@ -75,7 +69,7 @@
             Fast-forward to Germany a few years later, and they had me!
             Fast-forward 12 years, and we are in Virginia!
           </p>
-          <p class="text-justify text-muted">
+          <p class="text-justify text-muted mr-2">
             I have spent most of my life in Virginia. After a northern-virginian
             adolescense, I moved to Richmond to study Biology and Chemistry at
             VCU as an undergraduate. After working in academic and industry for
@@ -84,11 +78,7 @@
             loved SCIENCE and NATURE, so naturally - I married the two in my
             graduate research (and through in a flatworm for good measure).
           </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <p class="text-justify text-muted">
+          <p class="text-justify text-muted mr-2">
             During grad school, I got really into rock climbing. In the picutre
             above, you can see me climbing a boulder-problem in Nevada (Kraft
             Boulders, Plumber's Crack) a few years back. I also enjoy
@@ -104,5 +94,8 @@
       <p class="text-muted text-center bg-dark pt-5 pb-0 m-0">Copyright</p>
     </footer>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      
   </body>
 </html>
