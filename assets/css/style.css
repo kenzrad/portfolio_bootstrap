@@ -21,6 +21,14 @@ body {
   }
 
 
+/*attempts to scale and make my pictures (of different size) responsive, uniform, and not all wiggity wack. It's a process...still not there....*/  
+/* .wtf {
+    position: relative;
+    height: 0;
+    width: 100%;
+  } */
+
+
 /* .card-img {
     max-width: 275px;
     max-height: 150px;
@@ -42,3 +50,8 @@ body {
     height: 40vh;
     object-fit: cover;
 }
+
+/* .card a {
+    min-width: 50%;
+    min-height: 30%
+} */
