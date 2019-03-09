@@ -20,38 +20,17 @@ body {
     display: block!important;
   }
 
-
-/*attempts to scale and make my pictures (of different size) responsive, uniform, and not all wiggity wack. It's a process...still not there....*/  
-/* .wtf {
-    position: relative;
-    height: 0;
-    width: 100%;
-  } */
-
-
-/* .card-img {
-    max-width: 275px;
-    max-height: 150px;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-
-
-  /* .img-adjusted{
-    background-position: 50% 50%;
-    background-repeat:   no-repeat;
-    background-size:     cover;
-    } */
-/* 
-  This helped default my portfolio images, but didn't work with smaller screen size */
- .card-img {
-    width: 100%;
-    height: 40vh;
+.card-port {
+    border: solid;
+    border-width: 0.5px;
+    border-color: lightgrey;
+    max-height: 300px;
     object-fit: cover;
 }
+/* 
+@media screen and (max-width: 640px) {
 
-/* .card a {
-    min-width: 50%;
-    min-height: 30%
+    .card-port {
+        max-height: 250px;
+    }
 } */
